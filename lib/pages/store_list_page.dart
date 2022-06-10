@@ -58,11 +58,16 @@ class _StoreListPageState extends State<StoreListPage> {
                               ),
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(16)),
-                          child: Text(
-                            "Logout",
-                            style: TextStyle(
-                              color: Colors.red,
-                              fontSize: 18,
+                          child: FlatButton(
+                            onPressed: () {
+                              Navigator.pop(context);
+                            },
+                            child: Text(
+                              "Logout",
+                              style: TextStyle(
+                                color: Colors.red,
+                                fontSize: 18,
+                              ),
                             ),
                           ),
                         ),
