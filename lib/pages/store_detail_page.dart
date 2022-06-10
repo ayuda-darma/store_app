@@ -388,7 +388,7 @@ class _StoreDetailPageState extends State<StoreDetailPage> {
                             color: Colors.red,
                             borderRadius: BorderRadius.circular(4)),
                         child: Center(
-                          child: ElevatedButton(
+                          child: FlatButton(
                             onPressed: () {
                               Navigator.pop(context);
                             },
@@ -420,7 +420,7 @@ class _StoreDetailPageState extends State<StoreDetailPage> {
                             color: Colors.blue[600],
                             borderRadius: BorderRadius.circular(4)),
                         child: Center(
-                          child: ElevatedButton(
+                          child: FlatButton(
                             onPressed: () {
                               Navigator.pop(context);
                             },
